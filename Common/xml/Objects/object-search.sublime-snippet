@@ -5,8 +5,8 @@
     <field name="model">${2:model}</field>
     <field name="arch" type="xml">
         <search string="${3:String}">
-            <filter string="${4:name}" icon="terp-gtk-media-pause" domain="[("${5:field}","${6:=}","${7:value}")]"/>
-            <filter string="${9:name}" domain="[]" context="{"group_by" : "${10:field}"}" />
+            <filter string="${4:name}" icon="terp-gtk-media-pause" domain="[('${5:field}','${6:=}','${7:value}')]"/>
+            <filter string="${9:name}" domain="[]" context="{'group_by' : '${10:field}'}"/>
         </search>
     </field>
 </record>

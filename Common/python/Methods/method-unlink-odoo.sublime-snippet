@@ -1,7 +1,7 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[@api.multi
+    <content><![CDATA[
     def unlink(self):
     """
         Delete all record(s) from table heaving record id in ids

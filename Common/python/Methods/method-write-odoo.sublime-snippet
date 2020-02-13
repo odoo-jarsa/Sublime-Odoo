@@ -1,7 +1,7 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[@api.multi
+    <content><![CDATA[
     def write(self, vals):
     """
         Update record(s)  with new value comes as {values}

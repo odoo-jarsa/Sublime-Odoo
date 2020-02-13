@@ -1,25 +1,24 @@
 <snippet>
-	<content><![CDATA[
-<record model="ir.ui.view" id="${1:name_id}_form">
-	<field name="name">${1:name_id}.form</field>
-	<field name="model">${2:model.name}</field>
-	<field name="arch" type="xml">
-		<form string="${3:description}">
-			<header>
-			</header>
-			<sheet>
-				<h1>
-					<label string="${3:description}"/>
-				</h1>
-				<group>
-					<field name="${4:field_name}"/>$0
-				</group>
-			</sheet>
-		</form>
-	</field>
+    <content><![CDATA[<record model="ir.ui.view" id="${1:name_id}_form">
+    <field name="name">${1:name_id}.form</field>
+    <field name="model">${2:model.name}</field>
+    <field name="arch" type="xml">
+        <form string="${3:description}">
+            <header>
+            </header>
+            <sheet>
+                <h1>
+                    <label string="${3:description}"/>
+                </h1>
+                <group>
+                    <field name="${4:field_name}"/>$0
+                </group>
+            </sheet>
+        </form>
+    </field>
 </record>
 ]]></content>
-	<tabTrigger>form</tabTrigger>
-	<scope>text.xml</scope>
-	<description>Odoo form</description>
+    <tabTrigger>form</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo form</description>
 </snippet>

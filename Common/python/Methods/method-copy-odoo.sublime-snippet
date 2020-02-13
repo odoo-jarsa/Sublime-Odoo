@@ -1,8 +1,7 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[@api.multi
-    def copy(self, default=None):
+    <content><![CDATA[def copy(self, default=None):
     """
         Create a new record in ${1:ModelName} model from existing one
         @param default: dict type contains the values to be override during copy of object

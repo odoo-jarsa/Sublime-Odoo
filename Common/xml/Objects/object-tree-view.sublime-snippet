@@ -1,16 +1,16 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <record model='ir.ui.view' id='${1:name_id}_tree'>
-	<field name='name'>${1:name_id}.tree</field>
-	<field name='model'>${2:model.name}</field>
-	<field name='arch' type='xml'>
-		<tree string='${3:description}'>
-			<field name='${4:field_name}'/>
-		</tree>
-	</field>
+    <field name='name'>${1:name_id}.tree</field>
+    <field name='model'>${2:model.name}</field>
+    <field name='arch' type='xml'>
+        <tree string='${3:description}'>
+            <field name='${4:field_name}'/>
+        </tree>
+    </field>
 </record>
 ]]></content>
-	<tabTrigger>tree</tabTrigger>
-	<scope>text.xml</scope>
-	<description>Odoo Tree</description>
+    <tabTrigger>tree</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Tree</description>
 </snippet>

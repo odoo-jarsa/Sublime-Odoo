@@ -8,7 +8,7 @@
 {
     'name': '${3:Module name}',
     'summary': '${4:Module summary}',
-    'version': '${5:10.0.1.0.0}',
+    'version': '${5:13.0.1.0.0}',
     'category': '${6:Uncategorized}',
     'website': '${7:https://odoo-community.org/}',
     'author': '<${2:AUTHOR(S)}>, Odoo Community Association (OCA)',
